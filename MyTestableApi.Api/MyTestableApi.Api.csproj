@@ -7,9 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ChoETL.NETStandard" Version="1.2.1.64" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-    <InternalVisibleTo Include="MyTestableApi.Tests"/>
+    <InternalVisibleTo Include="MyTestableApi.Tests" />
   </ItemGroup>
 
 </Project>
